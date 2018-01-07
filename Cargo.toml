@@ -1,0 +1,15 @@
+[package]
+name = "ddos-client"
+version = "0.1.0"
+authors = ["Katharina Fey <kookie@spacekookie.de>"]
+
+[dependencies]
+whatsmyip = "0.1.0"
+
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+reqwest = "0.8.2"
+
+[patch.crates-io]
+whatsmyip = { path = "whatsmyip/" }
