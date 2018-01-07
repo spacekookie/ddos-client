@@ -1,0 +1,21 @@
+[package]
+name = "whatsmyip"
+version = "0.1.0"
+authors = ["raf"]
+description = "A rust crate to figure out your external IP address"
+license = "ISC"
+repository = "https://github.com/equalsraf/whatsmyip"
+
+[dependencies]
+futures = "0.1"
+hyper = "0.11"
+tokio-core = "0.1"
+log = "0.3.*"
+env_logger = "0.4.*"
+rand = "0.3"
+ip = "1.1.*"
+igd = "0.6.*"
+
+# [[bin]]
+# name = "whatsmyip"
+# doc = false
